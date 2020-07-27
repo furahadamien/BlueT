@@ -1,6 +1,6 @@
 {
   "name": "bluet",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Decode BLE packaets",
   "main": "runner.js",
   "directories": {
@@ -30,6 +30,6 @@
     "path": "^0.12.7"
   },
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/@furahadamien"
+    "registry": "https://npm.pkg.github.com/@furahadamien"
   }
 }
