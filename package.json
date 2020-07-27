@@ -28,5 +28,8 @@
     "array-buffer-to-hex": "^1.0.0",
     "noble-mac": "https://github.com/Timeular/noble-mac.git",
     "path": "^0.12.7"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/@furahadamien"
   }
 }
