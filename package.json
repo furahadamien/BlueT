@@ -2,12 +2,9 @@
   "name": "bluet",
   "version": "1.0.0",
   "description": "Decode BLE packaets",
-  "main": "index.js",
+  "main": "runner.js",
   "directories": {
     "lib": "lib"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -26,5 +23,10 @@
   "bugs": {
     "url": "https://github.com/furahadamien/BlueT/issues"
   },
-  "homepage": "https://github.com/furahadamien/BlueT#readme"
+  "homepage": "https://github.com/furahadamien/BlueT#readme",
+  "dependencies": {
+    "array-buffer-to-hex": "^1.0.0",
+    "noble-mac": "https://github.com/Timeular/noble-mac.git",
+    "path": "^0.12.7"
+  }
 }
