@@ -1,3 +1,3 @@
 const path = require('path');
 const bleTracker = require('./bluet')
-module.exports = bleTracker.TrackDevices();
+module.exports = bleTracker.ScanDevices();
