@@ -1,7 +1,7 @@
 
 # BlueT (Node.js Bluetooth Low Energy)
 
-_Short for Bluetooth tracker, [`bluet`](https://github.com/furahadamien/BlueT) is a node.js package that decodes data packecyts from BLE beacons. The package is build on top of a raspberry pi microprocessor but can also be run on arduino. The current version builds on MacOS and uses [`noble-mac]() which depends on an unstable mac binding in [`noble`](https://github.com/sandeepmistry/noble)._
+_Short for Bluetooth tracker, [`bluet`](https://github.com/furahadamien/BlueT) is a node.js package that decodes data packecyts from BLE beacons. The package is build on top of a raspberry pi microprocessor but can also be run on arduino. The current version builds on MacOS and uses [`noble-mac`](https://github.com/Timeular/noble-mac) which depends on an unstable mac binding in [`noble`](https://github.com/sandeepmistry/noble)._
 
 Because the package has the noble-mac dependency, it provides an added functionlity to the one provided by  noble mac bindings using the official [CoreBluetooth API](https://developer.apple.com/documentation/corebluetooth).
 
